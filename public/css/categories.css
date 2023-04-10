@@ -1,0 +1,38 @@
+/* CATEGORIES */
+
+.content:hover img {
+  filter: blur(1.5px);
+  transition: .2s ease;
+}
+
+.text {
+display: none;
+}
+.content {
+position: relative;
+}
+
+.content {
+position: relative;
+}
+
+.content:hover .content{
+opacity: 0.8;
+}
+
+.content:hover .text {
+display: block;
+text-transform: uppercase;
+color: white;
+font-size: 30px;
+font-weight: bold;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+font-family: 'Mulish', sans-serif;
+font-weight: 800;
+}  

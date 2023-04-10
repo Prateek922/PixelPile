@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/categories.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;1000&family=Poppins:wght@600&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <title>Pixel Pile</title>
+    <script src="https://kit.fontawesome.com/2a0a21cc45.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--------------------------HEADER ---------------------------->
+    <section class="bg"></section>
+        <div class="bg-gradient">
+            <div class="landing">
+                <div class="title">Pixel Pile</div>
+            <hr class="rule"/>
+            <p class="description">Pixel Pile provides users with a comparable experience to a mobile phone's gallery, enabling them to upload and organize images into multiple categories.</p>
+            <div>
+                <div class="" style="display: inline-block;">
+                    <label for="photo">
+                        <img class="image-upload" src="/img/upload.png"/>
+                    </label>
+                    <input type="file" name="photo" id="photo" placeholder="photo" multiple hidden />
+                </div> 
+                <input type="text" name="category" id="category" placeholder="Enter a category">
+                <button class="btn" id="btn" onclick="get_photo()">Submit</button>
+            </div>
+            </div>
+            
+        </div>
+
+    <!---------------------------- CATEGORIES ---------------------------->
+    <div class="gallery" id="gallery"></div>
+
+    <!----------------------------FOOTER ---------------------------->
+    <footer>
+        <div class="footer-content">
+            <h3>Pixel Pile</h3>
+            <p>Elevate your creative projects with stunning images that inspire and enhance your vision.</p>
+            <ul class="socials">
+                <li><a href="https://www.linkedin.com/in/prateek-arora-42b0541b9/"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/Prateek922"><i class="fa fa-github"></i></a></li>
+                <li><a href="mailto:prateeka922@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023 Pixel Pile. designed by <span>Prateek Arora</span></p>
+        </div>
+    </footer>
+    <script src="/js/index.js"></script>
+    <script src="/js/upload.js"></script>
+</body>
+   
+</html>
